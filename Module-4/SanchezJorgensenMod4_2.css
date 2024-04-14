@@ -1,83 +1,56 @@
-/* Basic Reset */
 body,
 html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #121212;
-    /* Dark background */
     color: #E0E0E0;
-    /* Light grey text for good contrast */
     font-family: Arial, sans-serif;
-    /* A clean, modern font */
 }
 
-/* Container styling for general alignment */
 #container {
     text-align: center;
     padding: 2rem 0;
-    /* Spacing at the top and bottom */
 }
 
-/* Image gallery grid */
 #image-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* 3 columns */
     gap: 20px;
-    /* Space between items */
     margin-top: 10%;
     justify-content: center;
     padding: 0 5%;
-    /* Responsive padding */
 }
 
-/* H1 style */
 h1 {
     color: #FFD700;
-    /* Golden color for the title to stand out */
     margin-bottom: 2rem;
-    /* Spacing below the title */
 }
 
-/* H3 (image descriptions) styles */
 h3 {
     color: #ADFF2F;
-    /* Bright green for visibility and contrast */
     margin: 1rem 0;
-    /* Space above and below */
 }
 
-/* Figure and Figcaption styles */
 figure {
     margin: 0 auto;
-    /* Centering the figure */
     text-align: center;
-    /* Ensure the image is centered within the figure */
 }
 
 figcaption {
     font-style: italic;
     font-size: 0.75em;
     color: #FFA07A;
-    /* Light salmon for the captions */
     margin-top: 0.5rem;
-    /* Space above the caption */
 }
 
-/* Style for the back link */
 a {
     color: #ADD8E6;
-    /* Light blue for the link */
     text-decoration: none;
-    /* No underline */
     display: inline-block;
-    /* Allows margin specifications */
     margin-top: 2rem;
-    /* Space above the link */
 }
 
 a:hover {
     text-decoration: underline;
-    /* Underline on hover for clarity */
 }
