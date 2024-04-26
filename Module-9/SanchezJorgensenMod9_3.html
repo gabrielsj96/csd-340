@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+<!--
+      Gabriel Sanchez Jorgensen
+      Assignment 9.3
+-->
+
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+        var firstWord = "Song";
+        var secondWord = "I";
+        var thirdWord = "sky";
+        var fourthWord = "table";
+    </script>
+</head>
+
+<body>
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+    <p>The Love <span id="Song">_________</span> of J. Alfred Prufrock</p>
+    <p>Let us go then, you and <span id="I">_________</span>,</p>
+    <p>When the evening is spread out against the <span id="sky">_________</span></p>
+    <p>Like a patient etherized upon a <span id="table">_________</span>;</p>
+
+    <p>
+        <button type="button" onclick="document.getElementById('Song').innerHTML = firstWord;">Reveal 1</button>
+        <button type="button" onclick="document.getElementById('I').innerHTML = secondWord;">Reveal 2</button>
+        <button type="button" onclick="document.getElementById('sky').innerHTML = thirdWord;">Reveal 3</button>
+        <button type="button" onclick="document.getElementById('table').innerHTML = fourthWord;">Reveal 4</button>
+    </p>
+    <footer>
+        <p>&copy; 2024 Sanchez Jorgensen</p>
+        <a id=footerlink href="../index.html">Back to Portal</a>
+    </footer>
+</body>
+
+</html>
